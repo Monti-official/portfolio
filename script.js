@@ -22,7 +22,7 @@ async function sentMsg() {
     const fmsg = String(msgIp.value);
     console.log(fmsg);
     try{
-        let res = await fetch(`https://backend-portfolio-9dx1.onrender.com/msg?name=${fname}&mail=${fmail}&msg=${fmsg}`);
+        let res = await fetch(https://backend-skq2.onrender.com/msg?name=${fname}&mail=${fmail}&msg=${fmsg}`);
         let data = await res.json();
         console.log(data);
         alert("msg sent");
